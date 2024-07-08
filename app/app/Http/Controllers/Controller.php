@@ -63,7 +63,7 @@ class Controller extends BaseController
             'first_name' => 'required',
             'reg_number' => 'required',
             'username' => 'required',
-            'password' => 'required|min:8',
+            'password' => 'required',
         ]);
 
         try{
